@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1729351043259",
+    "name": "age",
+    "ruleString": "age>20"
+  },
+  {
+    "id": "1729351061588",
+    "name": "mawa",
+    "ruleString": "age > 20 and salary>50000"
+  },
+  {
+    "id": "1",
+    "name": "Adult Age Check",
+    "ruleString": "age >= 18"
+  },
+  {
+    "id": "2",
+    "name": "High Income",
+    "ruleString": "salary > 100000"
+  },
+  {
+    "id": "3",
+    "name": "Senior Citizen",
+    "ruleString": "age >= 65"
+  },
+  {
+    "id": "4",
+    "name": "Eligible for Loan",
+    "ruleString": "age >= 21 AND creditScore > 700"
+  },
+  {
+    "id": "5",
+    "name": "Experienced Professional",
+    "ruleString": "yearsOfExperience > 5"
+  },
+  {
+    "id": "6",
+    "name": "High Risk Customer",
+    "ruleString": "age < 25 OR creditScore < 600"
+  },
+  {
+    "id": "7",
+    "name": "Premium Customer",
+    "ruleString": "totalPurchases > 10000 AND membershipYears >= 2"
+  },
+  {
+    "id": "8",
+    "name": "Eligible for Discount",
+    "ruleString": "isStudent = true OR age >= 60"
+  },
+  {
+    "id": "9",
+    "name": "Needs Financial Advice",
+    "ruleString": "salary > 150000 OR (age > 50 AND retirementSavings < 500000)"
+  },
+  {
+    "id": "10",
+    "name": "Complex Eligibility",
+    "ruleString": "(age >= 18 AND income > 50000) OR (age >= 65 AND retirementIncome > 30000)"
+  }
+]
